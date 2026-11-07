@@ -1,0 +1,4 @@
+number = int(input('Enter a number: '))
+binary = bin(number)
+hexedecimal = hex(number)
+print(f'Binary number: {binary}. Hexadecimal number: {hexedecimal}.')

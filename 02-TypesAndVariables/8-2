@@ -1,0 +1,4 @@
+r = int(input('Enter radius: '))
+circumference = 2 * 3.14 * r
+area = 3.14 * r ** 2
+print(f'Circumference: {circumference}. Area: {area}')
