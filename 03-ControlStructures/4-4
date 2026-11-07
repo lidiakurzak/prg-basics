@@ -1,0 +1,8 @@
+university = 'Krakow University of Economics'
+university_expanded = ''
+
+for char in university:
+    university_expanded = university_expanded + char + ' '
+
+print(f'original university name: {university}') # original university name
+print(f'expanded university name: {university_expanded}') # expanded university name
