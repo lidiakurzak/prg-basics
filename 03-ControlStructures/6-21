@@ -1,0 +1,13 @@
+amount = int(input('Enter amount of money: '))
+five = amount // 5
+rest5 = amount % 5
+
+two = rest5 // 2
+rest2 = rest5 % 2
+
+one = rest2 // 1
+
+print(f'Amount of money: {amount}')
+print(f'5 PLN: {five}')
+print(f'2 PLN: {two}')
+print(f'1 PLN: {one}')

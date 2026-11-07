@@ -1,0 +1,13 @@
+pin = '0805'
+tries = 0
+
+for i in range (0,3):
+    attempts = input('Enter your pin: ')
+    if attempts != pin:
+        print('Incorrect... You have', 2 - i, 'attempts left')
+        tries += 1
+    if attempts == pin:
+        print('Access granted')
+        break
+    else:
+        print('Access denied')
