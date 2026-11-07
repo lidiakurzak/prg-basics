@@ -1,11 +1,11 @@
 
 import keyboard
 
-first_name = input_string('Enter name: ')
-last_name = input_string('Enter surname: ')
-age = input_integer('Enter age: ')
-salary = input_integer('Enter salary: ')
-is_salary_hidden = input_boolean('Hide salary? (y/n)')
+first_name = keyboard.input_string('Enter name: ')
+last_name = keyboard.input_string('Enter surname: ')
+age = keyboard.input_integer('Enter age: ')
+salary = keyboard.input_integer('Enter salary: ')
+is_salary_hidden = keyboard.input_boolean('Hide salary? (y/n)')
 
 # Prints employee's record
 print('DATA RECORD')
