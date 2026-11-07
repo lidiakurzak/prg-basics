@@ -1,0 +1,7 @@
+price1 = int(input("Enter the price: "))
+price2 = int(input("Enter the second price: "))
+discount = (price1-price2)*100/price1
+if discount >= 10:
+    print("Buy the product!!")
+else:
+    print("Don't buy the product!!")

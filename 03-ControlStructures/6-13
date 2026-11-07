@@ -1,0 +1,5 @@
+speed = int(input('Enter car speed: '))
+if 40 <= speed <= 140 :
+    print('valid car speed')
+else:
+    print('invalid car speed')

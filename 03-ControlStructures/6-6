@@ -1,0 +1,9 @@
+time = int(input("Enter the time in hours: "))
+if time in (1,2):
+    price = 5
+elif 3 <= time <= 6:
+    price = 15
+elif time > 6:
+    price = 20
+
+print(f"The price for {time} hours is: {price} PLN")

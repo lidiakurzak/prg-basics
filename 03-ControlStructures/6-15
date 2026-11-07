@@ -1,0 +1,7 @@
+ean = input('Enter an ean: ')
+if len(ean) == 13:
+    print('EAN is valid')
+    if ean[0:3] == '590':
+        print('Polish product')
+else:
+    print('EAN is invalid')

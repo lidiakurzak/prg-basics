@@ -1,0 +1,8 @@
+facebook = input('do you have a facebook account? Y/N: ')
+instagram = input('do you have an instagram account? Y/N: ')
+twitter = input('do you have a twitter account? Y/N: ')
+yes_count = (facebook == 'Y') + (instagram == 'Y') + (twitter == 'Y')
+if yes_count >= 2:
+    print('You are a good influencer!')
+else:
+    print('You are not a good influencer!')
