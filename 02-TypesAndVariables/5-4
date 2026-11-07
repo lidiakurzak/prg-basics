@@ -1,0 +1,3 @@
+price = float(input('Enter price: '))
+vat = price*0.23
+print (f'The price is {price} and the VAT is {vat:.2f}')
